@@ -12,9 +12,9 @@ include "connection.php";
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <style>
-    button.btn {
-        border-radius: 0;
-    }
+button.btn {
+    border-radius: 0;
+}
 </style>
 
 <?php if (isset($_SESSION['error'])) : ?>
